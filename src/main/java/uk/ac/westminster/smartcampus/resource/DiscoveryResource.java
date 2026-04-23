@@ -30,7 +30,7 @@ public class DiscoveryResource {
         body.put("apiName", "Smart Campus Sensor & Room Management API");
         body.put("version", "1.0.0");
         body.put("description", "RESTful API for managing campus rooms, sensors and readings.");
-        body.put("documentation", "https://github.com/<your-username>/smart-campus-api#readme");
+        body.put("documentation", "https://github.com/Andrykhno/smart-campus-api#readme");
 
         Map<String, String> contact = new LinkedHashMap<>();
         contact.put("team", "Smart Campus Backend");
