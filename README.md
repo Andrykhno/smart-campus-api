@@ -314,19 +314,3 @@ instead, I would:
 A single filter gives me consistent, automatic logs with the final
 status code, and it's trivial to turn off by just removing the
 `@Provider` annotation or commenting out one package scan.
-
-## 6. Video demonstration
-
-Rough running order (total ~10 minutes):
-
-1. Start the server with `mvn exec:java`, show startup logs.
-2. Hit `GET /api/v1` (discovery).
-3. Part 2 — list rooms, create a room, delete twice to show 204 vs 404,
-   then delete a non-empty room to show 409.
-4. Part 3 — list sensors, filter by type, try creating a sensor with a
-   bad roomId to show 422.
-5. Part 4 — fetch reading history, post a new reading, re-fetch the
-   sensor to show `currentValue` updated, then try to post to
-   `OCC-001` (MAINTENANCE) to show 403.
-6. Part 5 — hit `/api/v1/trigger-error` to show the 500 body is clean
-   JSON even though the server log shows the full stack trace.
