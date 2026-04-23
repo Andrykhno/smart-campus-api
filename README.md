@@ -317,8 +317,6 @@ status code, and it's trivial to turn off by just removing the
 
 ## 6. Video demonstration
 
-Recorded video walkthrough: `<add-YouTube-or-Panopto-link-before-submission>`
-
 Rough running order (total ~10 minutes):
 
 1. Start the server with `mvn exec:java`, show startup logs.
