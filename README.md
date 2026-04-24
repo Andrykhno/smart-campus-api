@@ -92,7 +92,7 @@ curl http://localhost:8080/api/v1
 # 2. Create a room
 curl -X POST http://localhost:8080/api/v1/rooms \
      -H "Content-Type: application/json" \
-     -d '{"id":"LAB-007","name":"Robotics Lab","capacity":15}'
+     -d '{"name":"Robotics Lab","capacity":15}'
 
 # 3. Create a sensor in that room
 curl -X POST http://localhost:8080/api/v1/sensors \
