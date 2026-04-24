@@ -1,5 +1,9 @@
 # Smart Campus Sensor & Room Management API
 
+**Author:** Andrii Prykhno
+**Student ID:** w2135231
+**Module:** 5COSC022W Client-Server Architectures (2025/26)
+
 Coursework for **5COSC022W Client-Server Architectures (2025/26)**.
 
 A JAX-RS REST service for managing campus rooms, sensors, and sensor readings.
